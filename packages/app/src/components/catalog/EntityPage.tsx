@@ -37,6 +37,7 @@ import {
   EntityOwnershipCard,
 } from '@backstage/plugin-org';
 import { EntityTechdocsContent } from '@backstage/plugin-techdocs';
+import { InstanaPage } from '@internal/plugin-instana';
 import { EmptyState } from '@backstage/core-components';
 import {
   Direction,
@@ -64,6 +65,10 @@ const techdocsContent = (
     </TechDocsAddons>
   </EntityTechdocsContent>
 );
+
+const instanaContent = (
+  <InstanaPage />
+)
 
 const cicdContent = (
   // This is an example of how you can implement your company's logic in entity page.
@@ -168,6 +173,10 @@ const serviceEntityPage = (
     <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
     </EntityLayout.Route>
+
+    <EntityLayout.Route path="/instana" title="Instana">
+      {instanaContent}
+    </EntityLayout.Route>
   </EntityLayout>
 );
 
@@ -194,6 +203,10 @@ const websiteEntityPage = (
 
     <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
+    </EntityLayout.Route>
+    
+    <EntityLayout.Route path="/instana" title="Instana">
+      {instanaContent}
     </EntityLayout.Route>
   </EntityLayout>
 );

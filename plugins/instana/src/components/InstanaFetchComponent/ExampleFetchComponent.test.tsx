@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { ExampleFetchComponent } from './ExampleFetchComponent';
+import { InstanaFetchComponent } from './InstanaFetchComponent';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { setupRequestMockHandlers } from '@backstage/test-utils';
@@ -19,7 +19,7 @@ describe('ExampleFetchComponent', () => {
     );
   });
   it('should render', async () => {
-    await render(<ExampleFetchComponent />);
+    await render(<InstanaFetchComponent />);
     expect(await screen.findByTestId('progress')).toBeInTheDocument();
   });
 });

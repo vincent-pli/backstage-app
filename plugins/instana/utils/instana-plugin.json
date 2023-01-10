@@ -1,0 +1,553 @@
+[{
+	"plugin": "aceIntegrationServer",
+	"label": "ACE Integration Server"
+}, {
+	"plugin": "aceMessageFlow",
+	"label": "ACE Message Flow"
+}, {
+	"plugin": "activeMQ",
+	"label": "ActiveMQ"
+}, {
+	"plugin": "activeMQArtemis",
+	"label": "ActiveMQ Artemis"
+}, {
+	"plugin": "application",
+	"label": "Application"
+}, {
+	"plugin": "awsBeanstalk",
+	"label": "AWS Beanstalk Environment"
+}, {
+	"plugin": "awsDynamoDb",
+	"label": "AWS DynamoDB Table"
+}, {
+	"plugin": "awsEbs",
+	"label": "AWS EBS Volume"
+}, {
+	"plugin": "awsEc",
+	"label": "AWS EC"
+}, {
+	"plugin": "awsElb",
+	"label": "AWS ELB"
+}, {
+	"plugin": "awsEmr",
+	"label": "AWS EMR"
+}, {
+	"plugin": "awsEs",
+	"label": "AWS ElasticSearch"
+}, {
+	"plugin": "awsKinesis",
+	"label": "AWS Kinesis stream"
+}, {
+	"plugin": "awsLambda",
+	"label": "awsLambda"
+}, {
+	"plugin": "awsLambdaVersion",
+	"label": "AWS Lambda Version"
+}, {
+	"plugin": "awsMq",
+	"label": "Amazon MQ"
+}, {
+	"plugin": "awsMskBroker",
+	"label": "AWS MSK Broker"
+}, {
+	"plugin": "awsMskCluster",
+	"label": "AWS MSK Cluster"
+}, {
+	"plugin": "awsRds",
+	"label": "AWS RDS"
+}, {
+	"plugin": "awsS3",
+	"label": "AWS S3 Bucket"
+}, {
+	"plugin": "awsSqs",
+	"label": "AWS SQS"
+}, {
+	"plugin": "azureApiManagement",
+	"label": "Azure API Management Service"
+}, {
+	"plugin": "azureAppService",
+	"label": "Azure AppService"
+}, {
+	"plugin": "azureCosmosDb",
+	"label": "Azure CosmosDb"
+}, {
+	"plugin": "azureRedisCache",
+	"label": "Azure Redis Cache"
+}, {
+	"plugin": "azureSqlDb",
+	"label": "Azure SQL Database"
+}, {
+	"plugin": "azureSqlElasticPool",
+	"label": "Azure SQL Elastic Pool"
+}, {
+	"plugin": "azureStorage",
+	"label": "Azure Storage Service"
+}, {
+	"plugin": "bizTalk",
+	"label": "BizTalk Host"
+}, {
+	"plugin": "cassandraCluster",
+	"label": "Cassandra Cluster"
+}, {
+	"plugin": "cassandraNode",
+	"label": "Cassandra Node"
+}, {
+	"plugin": "ceph",
+	"label": "Ceph Instance"
+}, {
+	"plugin": "clickHouseDatabase",
+	"label": "ClickHouse DB"
+}, {
+	"plugin": "clrRuntimePlatform",
+	"label": ".NET App"
+}, {
+	"plugin": "cockroachDBCluster",
+	"label": "CockroachDB Cluster"
+}, {
+	"plugin": "cockroachDBNode",
+	"label": "CockroachDB Node"
+}, {
+	"plugin": "consul",
+	"label": "Consul Node"
+}, {
+	"plugin": "consulCluster",
+	"label": "Consul Cluster"
+}, {
+	"plugin": "containerd",
+	"label": "Containerd Container"
+}, {
+	"plugin": "couchbaseCluster",
+	"label": "Couchbase Cluster"
+}, {
+	"plugin": "couchbaseNode",
+	"label": "Couchbase Node"
+}, {
+	"plugin": "crio",
+	"label": "CRI-O Container"
+}, {
+	"plugin": "crystalRuntimePlatform",
+	"label": "Crystal App"
+}, {
+	"plugin": "db2Database",
+	"label": "DB2"
+}, {
+	"plugin": "db2ZDatabase",
+	"label": "Db2 on Z"
+}, {
+	"plugin": "defaultEntity20",
+	"label": "defaultEntity20"
+}, {
+	"plugin": "docker",
+	"label": "Docker Container"
+}, {
+	"plugin": "dropwizardApplicationContainer",
+	"label": "Dropwizard App"
+}, {
+	"plugin": "elasticsearchCluster",
+	"label": "Elasticsearch Cluster"
+}, {
+	"plugin": "elasticsearchNode",
+	"label": "Elasticsearch Node"
+}, {
+	"plugin": "endpoint",
+	"label": "Endpoint"
+}, {
+	"plugin": "etcd",
+	"label": "Etcd Node"
+}, {
+	"plugin": "f5",
+	"label": "F5"
+}, {
+	"plugin": "finagleApplicationContainer",
+	"label": "Finagle App"
+}, {
+	"plugin": "garden",
+	"label": "Garden Container"
+}, {
+	"plugin": "glassfishApplicationContainer",
+	"label": "Glassfish"
+}, {
+	"plugin": "golangRuntimePlatform",
+	"label": "Go App"
+}, {
+	"plugin": "googleCloudDatastore",
+	"label": "Google Cloud Datastore"
+}, {
+	"plugin": "googleCloudPubSub",
+	"label": "Google Cloud PubSub"
+}, {
+	"plugin": "googleCloudPubSubSubscription",
+	"label": "Google Cloud PubSub Subscription"
+}, {
+	"plugin": "googleCloudPubSubTopic",
+	"label": "Google Cloud PubSub Topic"
+}, {
+	"plugin": "googleCloudRunServiceRevision",
+	"label": "Google Cloud Run Service Revision"
+}, {
+	"plugin": "googleCloudSQL",
+	"label": "GCP SQL Instance"
+}, {
+	"plugin": "googleCloudStorage",
+	"label": "Google Cloud Storage"
+}, {
+	"plugin": "hAProxy",
+	"label": "HAProxy"
+}, {
+	"plugin": "hBase",
+	"label": "HBase"
+}, {
+	"plugin": "hadoopYARN",
+	"label": "Hadoop YARN"
+}, {
+	"plugin": "hadoopYARNNode",
+	"label": "Hadoop YARN Node"
+}, {
+	"plugin": "haskellRuntimePlatform",
+	"label": "Haskell Application"
+}, {
+	"plugin": "hazelcastCluster",
+	"label": "Hazelcast Cluster"
+}, {
+	"plugin": "hazelcastNode",
+	"label": "Hazelcast Node"
+}, {
+	"plugin": "host",
+	"label": "Host"
+}, {
+	"plugin": "httpd",
+	"label": "Apache HTTPd"
+}, {
+	"plugin": "ibmCloudClinicalData",
+	"label": "IBM Cloud Annotator for Clinical Data"
+}, {
+	"plugin": "ibmCloudCloudant",
+	"label": "IBM Cloud Cloudant"
+}, {
+	"plugin": "ibmCloudContainerRegistry",
+	"label": "IBM Cloud Container Registry"
+}, {
+	"plugin": "ibmCloudElasticsearch",
+	"label": "IBM Cloud Elasticsearch"
+}, {
+	"plugin": "ibmCloudEtcd",
+	"label": "IBM Cloud Etcd"
+}, {
+	"plugin": "ibmCloudEventStream",
+	"label": "IBM Cloud Event Stream"
+}, {
+	"plugin": "ibmCloudFoundry",
+	"label": "IBM Cloud Foundry"
+}, {
+	"plugin": "ibmCloudFunctions",
+	"label": "IBM Cloud Functions"
+}, {
+	"plugin": "ibmCloudHPMongoDb",
+	"label": "IBM Cloud Hyper Protect DBaaS for MongoDB"
+}, {
+	"plugin": "ibmCloudHPPostgreSql",
+	"label": "IBM Cloud Hyper Protect DBaaS for PostgreSQL"
+}, {
+	"plugin": "ibmCloudIsLoadBalancer",
+	"label": "IBM Cloud Load Balancer for VPC"
+}, {
+	"plugin": "ibmCloudLoadBalancer",
+	"label": "IBM Cloud Load Balancer"
+}, {
+	"plugin": "ibmCloudMongoDb",
+	"label": "IBM Cloud MongoDB"
+}, {
+	"plugin": "ibmCloudPostgreSql",
+	"label": "IBM Cloud PostgreSQL"
+}, {
+	"plugin": "ibmCloudRabbitMq",
+	"label": "IBM Cloud Rabbit MQ"
+}, {
+	"plugin": "ibmCloudRedis",
+	"label": "IBM Cloud Redis"
+}, {
+	"plugin": "ibmCloudSchematics",
+	"label": "IBM Cloud Schematics"
+}, {
+	"plugin": "ibmCloudSqlQuery",
+	"label": "IBM Cloud SQL Query"
+}, {
+	"plugin": "ibmCloudVpn4Vpc",
+	"label": "IBM Cloud VPN for VPC"
+}, {
+	"plugin": "ibmCos",
+	"label": "IBM Cloud Object Storage"
+}, {
+	"plugin": "ibmDataPowerAppliance",
+	"label": "IBM DataPower Appliance"
+}, {
+	"plugin": "ibmDataPowerDomain",
+	"label": "IBM DataPower Domain"
+}, {
+	"plugin": "ibmDataPowerEthernetInterface",
+	"label": "IBM DataPower Ethernet Interface"
+}, {
+	"plugin": "ibmDataPowerQueueManager",
+	"label": "IBM DataPower Queue Manager"
+}, {
+	"plugin": "ibmDataPowerService",
+	"label": "IBM DataPower Service"
+}, {
+	"plugin": "ibmDataPowerSqlDatasource",
+	"label": "IBM DataPower SQL Datasource"
+}, {
+	"plugin": "ibmIDb2",
+	"label": "Db2 on i"
+}, {
+	"plugin": "ibmIOs",
+	"label": "IBM i"
+}, {
+	"plugin": "ibmMqChannel",
+	"label": "IBM MQ Channel"
+}, {
+	"plugin": "ibmMqListener",
+	"label": "IBM MQ Listener"
+}, {
+	"plugin": "ibmMqQueue",
+	"label": "IBM MQ Queue"
+}, {
+	"plugin": "ibmMqQueueManager",
+	"label": "IBM MQ Queue Manager"
+}, {
+	"plugin": "ibmMqQueueUsage",
+	"label": "IBM MQ Queue Usage"
+}, {
+	"plugin": "ibmMqSubscription",
+	"label": "IBM MQ Subscription"
+}, {
+	"plugin": "ibmMqTopic",
+	"label": "IBM MQ Topic"
+}, {
+	"plugin": "ibmVsi",
+	"label": "IBM Virtual Server Instances"
+}, {
+	"plugin": "instanaAgent",
+	"label": "Instana Agent"
+}, {
+	"plugin": "jBossAsApplicationContainer",
+	"label": "JBoss"
+}, {
+	"plugin": "jbossDataGrid",
+	"label": "JBoss Data Grid"
+}, {
+	"plugin": "jenkins",
+	"label": "Jenkins"
+}, {
+	"plugin": "jettyApplicationContainer",
+	"label": "Jetty"
+}, {
+	"plugin": "jiraApplication",
+	"label": "Atlassian JIRA"
+}, {
+	"plugin": "jvmRuntimePlatform",
+	"label": "JVM"
+}, {
+	"plugin": "kafka",
+	"label": "Kafka Node"
+}, {
+	"plugin": "kafkaCluster",
+	"label": "Kafka Cluster"
+}, {
+	"plugin": "kafkaConnectCluster",
+	"label": "Kafka Connect Cluster"
+}, {
+	"plugin": "kafkaConnectConnector",
+	"label": "Kafka Connect Worker Connector"
+}, {
+	"plugin": "kafkaConnectWorker",
+	"label": "Kafka Connect Worker"
+}, {
+	"plugin": "kubernetesCluster",
+	"label": "Kubernetes Cluster"
+}, {
+	"plugin": "kubernetesCronJob",
+	"label": "Kubernetes CronJob"
+}, {
+	"plugin": "kubernetesDaemonSet",
+	"label": "Kubernetes DaemonSet"
+}, {
+	"plugin": "kubernetesDeployment",
+	"label": "Kubernetes Deployment"
+}, {
+	"plugin": "kubernetesJob",
+	"label": "Kubernetes Job"
+}, {
+	"plugin": "kubernetesNamespace",
+	"label": "Kubernetes Namespace"
+}, {
+	"plugin": "kubernetesNode",
+	"label": "Kubernetes Node"
+}, {
+	"plugin": "kubernetesPersistentVolume",
+	"label": "Kubernetes PersistentVolume"
+}, {
+	"plugin": "kubernetesPersistentVolumeClaim",
+	"label": "Kubernetes PersistentVolumeClaim"
+}, {
+	"plugin": "kubernetesPod",
+	"label": "Kubernetes Pod"
+}, {
+	"plugin": "kubernetesStatefulSet",
+	"label": "Kubernetes StatefulSet"
+}, {
+	"plugin": "lxc",
+	"label": "LXC Container"
+}, {
+	"plugin": "mariaDbDatabase",
+	"label": "MariaDB"
+}, {
+	"plugin": "memcached",
+	"label": "Memcached Nodes"
+}, {
+	"plugin": "mongoDb",
+	"label": "MongoDB Node"
+}, {
+	"plugin": "mongoDbCluster",
+	"label": "MongoDB Atlas Cluster"
+}, {
+	"plugin": "mongoDbReplicaSet",
+	"label": "MongoDB Replica Set"
+}, {
+	"plugin": "msSqlDatabase",
+	"label": "MS SQL Instance"
+}, {
+	"plugin": "msiis",
+	"label": "Internet Information Server"
+}, {
+	"plugin": "mule",
+	"label": "Mule ESB"
+}, {
+	"plugin": "mySqlDatabase",
+	"label": "MySQL DB"
+}, {
+	"plugin": "netCoreRuntimePlatform",
+	"label": ".NET Core App"
+}, {
+	"plugin": "nginx",
+	"label": "Nginx Server"
+}, {
+	"plugin": "nodeJsRuntimePlatform",
+	"label": "Node.js App"
+}, {
+	"plugin": "nomadScheduler",
+	"label": "Nomad Client"
+}, {
+	"plugin": "openshiftDeploymentConfig",
+	"label": "OpenShift Deployment Config"
+}, {
+	"plugin": "oracleDB",
+	"label": "OracleDB"
+}, {
+	"plugin": "pCFApplication",
+	"label": "Cloud Foundry Application"
+}, {
+	"plugin": "phpFpmRuntimePlatform",
+	"label": "PHP-FPM Runtime"
+}, {
+	"plugin": "ping",
+	"label": "Ping"
+}, {
+	"plugin": "pingDirectory",
+	"label": "PingIdentity Directory Server"
+}, {
+	"plugin": "postgreSqlDatabase",
+	"label": "PostgreSQL DB"
+}, {
+	"plugin": "process",
+	"label": "Process"
+}, {
+	"plugin": "prometheus",
+	"label": "Prometheus App"
+}, {
+	"plugin": "pythonRuntimePlatform",
+	"label": "Python App"
+}, {
+	"plugin": "rabbitMq",
+	"label": "RabbitMQ"
+}, {
+	"plugin": "redis",
+	"label": "Redis Node"
+}, {
+	"plugin": "redisCluster",
+	"label": "Redis Cluster"
+}, {
+	"plugin": "redisEnterpriseCluster",
+	"label": "Redis Enterprise Cluster"
+}, {
+	"plugin": "redisEnterpriseNode",
+	"label": "Redis Enterprise Node"
+}, {
+	"plugin": "rubyRuntimePlatform",
+	"label": "Ruby App"
+}, {
+	"plugin": "sapHana",
+	"label": "SAP HANA"
+}, {
+	"plugin": "service",
+	"label": "Service"
+}, {
+	"plugin": "solr",
+	"label": "Solr Node"
+}, {
+	"plugin": "solrCloudCluster",
+	"label": "Solr Cloud Cluster"
+}, {
+	"plugin": "sparkApplication",
+	"label": "Spark Application"
+}, {
+	"plugin": "sparkStandalone",
+	"label": "Spark Standalone"
+}, {
+	"plugin": "springbootApplicationContainer",
+	"label": "Spring Boot App"
+}, {
+	"plugin": "sybase",
+	"label": "Sybase Server"
+}, {
+	"plugin": "tibcoEMS",
+	"label": "Tibco EMS"
+}, {
+	"plugin": "tomcatApplicationContainer",
+	"label": "Tomcat"
+}, {
+	"plugin": "traefik",
+	"label": "Traefik Application"
+}, {
+	"plugin": "varnish",
+	"label": "Varnish Node"
+}, {
+	"plugin": "vault",
+	"label": "Vault Instance"
+}, {
+	"plugin": "vsphereHost",
+	"label": "ESXi Host"
+}, {
+	"plugin": "vsphereVM",
+	"label": "vSphere VM"
+}, {
+	"plugin": "webLogicApplicationContainer",
+	"label": "WebLogic Application Container"
+}, {
+	"plugin": "webSphereApplicationContainer",
+	"label": "WebSphere"
+}, {
+	"plugin": "webSphereCluster",
+	"label": "WebSphere Cluster"
+}, {
+	"plugin": "webSphereLibertyApplicationContainer",
+	"label": "WebSphere Liberty Server"
+}, {
+	"plugin": "webSphereMember",
+	"label": "WebSphere Cluster Member"
+}, {
+	"plugin": "zHMCApplication",
+	"label": "zHMCApplication"
+}, {
+	"plugin": "zooKeeper",
+	"label": "ZooKeeper"
+}]

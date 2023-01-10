@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExampleComponent } from './ExampleComponent';
+import { InstanaComponent } from './InstanaComponent';
 import { ThemeProvider } from '@material-ui/core';
 import { lightTheme } from '@backstage/theme';
 import { rest } from 'msw';
@@ -25,7 +25,7 @@ describe('ExampleComponent', () => {
   it('should render', async () => {
     await renderInTestApp(
       <ThemeProvider theme={lightTheme}>
-        <ExampleComponent />
+        <InstanaComponent />
       </ThemeProvider>,
     );
     expect(screen.getByText('Welcome to instana!')).toBeInTheDocument();

@@ -13,7 +13,7 @@ export const InstanaPage = instanaPlugin.provide(
   createRoutableExtension({
     name: 'InstanaPage',
     component: () =>
-      import('./components/ExampleComponent').then(m => m.ExampleComponent),
+      import('./components/InstanaComponent').then(m => m.InstanaComponent),
     mountPoint: rootRouteRef,
   }),
 );

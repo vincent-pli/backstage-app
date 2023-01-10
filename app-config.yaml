@@ -1,6 +1,6 @@
 app:
   title: Scaffolded Backstage App
-  baseUrl: http://172.16.251.127:3000
+  baseUrl: http://127.0.0.1:3000
 
 organization:
   name: My Company
@@ -12,33 +12,36 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: http://172.16.251.127:7007
+  baseUrl: http://127.0.0.1:7007
   listen:
     port: 7007
     # Uncomment the following host directive to bind to specific interfaces
-    # host: 127.0.0.1
+    host: 127.0.0.1
   csp:
     connect-src: ["'self'", 'http:', 'https:']
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
-    origin: http://172.16.251.127:3000
+    origin: http://127.0.0.1:3000
     methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
     credentials: true
   # This is for local development only, it is not recommended to use this in production
   # The production database configuration is stored in app-config.production.yaml
   database:
     # config options: https://node-postgres.com/apis/client
-    client: pg
-    connection:
-      host: 127.0.0.1
-      port: 5432
-      user: postgres
-      password: letmein
-      # https://node-postgres.com/features/ssl
-      #ssl: require # see https://www.postgresql.org/docs/current/libpq-ssl.html Table 33.1. SSL Mode Descriptions (e.g. require)
-        #ca: # if you have a CA file and want to verify it you can uncomment this section
-        #$file: <file-path>/ca/server.crt
+    client: better-sqlite3
+    connection: ':memory:'
+    # pengli comment temporary
+    # client: pg
+    # connection:
+    #   host: 127.0.0.1
+    #   port: 5432
+    #   user: postgres
+    #   password: letmein
+    #   # https://node-postgres.com/features/ssl
+    #   #ssl: require # see https://www.postgresql.org/docs/current/libpq-ssl.html Table 33.1. SSL Mode Descriptions (e.g. require)
+    #     #ca: # if you have a CA file and want to verify it you can uncomment this section
+    #     #$file: <file-path>/ca/server.crt
   cache:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
@@ -74,12 +77,13 @@ techdocs:
 
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
-  environment: development
-  providers:
-    github:
-      development:
-        clientId: c0dab4daf910e4125eaa
-        clientSecret: 60e72a6563cd1fe07be78062e474c236ff104e96
+  # pengli comment temporary
+  # environment: development
+  # providers:
+  #   github:
+  #     development:
+  #       clientId: c0dab4daf910e4125eaa
+  #       clientSecret: 60e72a6563cd1fe07be78062e474c236ff104e96
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options

@@ -1,0 +1,1 @@
+export { InstanaFetchComponent } from './InstanaFetchComponent';

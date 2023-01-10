@@ -1,0 +1,1 @@
+export { InstanaComponent } from './InstanaComponent';
